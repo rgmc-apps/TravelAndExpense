@@ -1,0 +1,28 @@
+UPDATE SystemUser SET
+secCode = 'AMSANTIAGO'
+WHERE secCode = 'AMMALOLOY-ON'
+
+UPDATE SystemMember SET
+secCode = 'AMSANTIAGO'
+WHERE secCode = 'AMMALOLOY-ON'
+
+UPDATE CashAdvance SET
+createBy = 'AMSANTIAGO'
+WHERE createBy = 'AMMALOLOY-ON'
+
+UPDATE CashAdvance SET
+updateBy = 'AMSANTIAGO'
+WHERE updateBy = 'AMMALOLOY-ON'
+
+UPDATE EPV SET
+createBy = 'AMSANTIAGO'
+WHERE createBy = 'AMMALOLOY-ON'
+
+
+UPDATE EPV SET
+updateBy = 'AMSANTIAGO'
+WHERE updateBy = 'AMMALOLOY-ON'
+
+UPDATE EPVDetail SET
+createBy = 'AMSANTIAGO'
+WHERE createBy = 'AMMALOLOY-ON'
